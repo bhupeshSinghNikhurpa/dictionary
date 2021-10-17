@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dictionary App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>English Dictionary</header>
+      <div class="search">
+        <input type="text" name="" id="" placeholder="Search a word" required />
+        <i class="fas fa-search"></i>
+        <i class="fas fa-times"></i>
+      </div>
+
+      <p class="info-text">
+        Type a word and press enter to get meaning, example, pronunciation, and
+        synonyms of that typed word.
+      </p>
+      <ul>
+        <li class="word">
+          <div class="details">
+            <p>_</p>
+            <span>__</span>
+          </div>
+          <i class="fas fa-volume-up"></i>
+        </li>
+        <div class="content">
+          <li class="meaning">
+            <div class="details">
+              <p>Meaning</p>
+              <span>___</span>
+            </div>
+          </li>
+          <li class="example">
+            <div class="details">
+              <p>Example</p>
+              <span>__</span>
+            </div>
+          </li>
+          <li class="synonyms">
+            <div class="details">
+              <p>Synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
